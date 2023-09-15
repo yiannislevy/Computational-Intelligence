@@ -38,4 +38,4 @@ end
 fis = addRule(fis, ruleList);
 
 % Save the FIS
-% writeFIS(fis);
+writeFIS(fis);
