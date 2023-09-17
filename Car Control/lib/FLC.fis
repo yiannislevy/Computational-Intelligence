@@ -13,7 +13,7 @@ DefuzzMethod='centroid'
 
 [Input1]
 Name='dv'
-Range=[-0.5 1.5]
+Range=[0 1]
 NumMFs=3
 MF1='S':'trimf',[-0.5 0 0.5]
 MF2='M':'trimf',[0 0.5 1]
@@ -21,7 +21,7 @@ MF3='L':'trimf',[0.5 1 1.5]
 
 [Input2]
 Name='dh'
-Range=[-0.5 1.5]
+Range=[0 1]
 NumMFs=3
 MF1='S':'trimf',[-0.5 0 0.5]
 MF2='M':'trimf',[0 0.5 1]
@@ -29,7 +29,7 @@ MF3='L':'trimf',[0.5 1 1.5]
 
 [Input3]
 Name='theta'
-Range=[-360 360]
+Range=[-180 180]
 NumMFs=3
 MF1='N':'trimf',[-360 -180 0]
 MF2='ZE':'trimf',[-180 0 180]
@@ -37,7 +37,7 @@ MF3='P':'trimf',[0 180 360]
 
 [Output1]
 Name='dtheta'
-Range=[-260 260]
+Range=[-130 130]
 NumMFs=3
 MF1='N':'trimf',[-260 -130 0]
 MF2='ZE':'trimf',[-130 0 130]
