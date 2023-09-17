@@ -5,12 +5,11 @@ This repository contains the code and analysis for my Computational Intelligence
 
 ## Part 1: Fuzzy Linear Controller (FLC) for Satellite Orientation Control
 ### Objective
-The objective of this sub-project is to implement a Fuzzy Linear Controller (FLC) for the control of a satellite's orientation angle.
+The objective of this part is to implement a Fuzzy Linear Controller (FLC) for the control of a satellite's orientation angle.
 
-
-## Part 2: FLC for Car Obstacle Avoidance--> TODO
+## Part 2: FLC for Car Obstacle Avoidance
 ### Objective
-In this sub-project, we use FLC to control the movement of a car with the objective of avoiding objects and preventing collisions. The FLC aims to navigate the car safely while avoiding obstacles.
+In this sub-project, we use FLC to control the direction of a car with the objective of getting it to the desired coordinates whilst avoiding collision with an obstacle.
 
 ## Part 3: Regression with TSK Model--> TODO
 ### Objective
