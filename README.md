@@ -11,9 +11,9 @@ The objective of this part is to implement a Fuzzy Linear Controller (FLC) for t
 ### Objective
 In this sub-project, we use FLC to control the direction of a car with the objective of getting it to the desired coordinates whilst avoiding collision with an obstacle.
 
-## Part 3: Regression with TSK Model--> TODO
+## Part 3: Regression with TSK Model
 ### Objective
-The third part of the project focuses on regression using the Takagi-Sugeno-Kang (TSK) model. We will implement and analyze regression tasks using TSK models.
+The third part of the project focuses on regression analysis using the Takagi-Sugeno-Kang (TSK) models. It is a two-fold part, focusing on 2 datasets. In the simple dataset (5 features), we implement 4 combinations (2 or 3 MF's, Singleton or Polynomial output) of TSK models and evaluate them. In the high-dimensional dataset (81 features) we use feature selection, along with grid search and 5-fold cross validation to optimize the following parameters: number of features to be used, which features will be used, and the cluster radius. We finally use that to train an optimal model.
 
 ## Part 4: Classification with TSK Model --> TODO
 ### Objective
