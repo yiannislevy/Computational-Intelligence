@@ -1,0 +1,53 @@
+function plot_metrics(error_matrix, OA, PA, UA, kappa, trainError, chkError)
+
+    % Plot Learning Curve
+    figure;
+    plot([trainError, chkError])
+    grid on;
+    legend('Training Error', 'Validation Error');
+    xlabel('Epoch');
+    ylabel('Error');
+    title('Learning Curve');
+
+    % Plot error matrix
+    figure;
+    imagesc(error_matrix);
+    colorbar;
+    xlabel('Actual');
+    ylabel('Predicted');
+    title('Error Matrix');
+    for i = 1:size(error_matrix, 1)
+        for j = 1:size(error_matrix, 2)
+            text(j, i, num2str(error_matrix(i, j)), 'HorizontalAlignment', 'center');
+        end
+    end
+
+    % Plot Overall Accuracy
+    figure;
+    bar(OA);
+    ylim([0 1]);
+    title('Overall Accuracy (OA)');
+    ylabel('OA');
+
+    % Plot Producer's Accuracy
+    figure;
+    bar(PA);
+    ylim([0 1]);
+    title("Producer's Accuracy (PA)");
+    xlabel('Class');
+    ylabel('PA');
+
+    % Plot User's Accuracy
+    figure;
+    bar(UA);
+    ylim([0 1]);di
+    title("User's Accuracy (UA)");
+    xlabel('Class');
+    ylabel('UA');
+
+    % Display Kappa Coefficient
+    figure;
+    bar(kappa);
+    title('Kappa Coefficient');
+    ylabel('\hat{k}');
+end
