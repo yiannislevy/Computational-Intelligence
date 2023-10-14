@@ -1,6 +1,6 @@
 # Computational Intelligence Project
 
-## Overview --> TODO
+## Overview
 This repository contains the code and analysis for my Computational Intelligence course project, which is divided into four distinct parts, each implemented in MATLAB. Below is an overview of each part:
 
 ## Part 1: Fuzzy Linear Controller (FLC) for Satellite Orientation Control
